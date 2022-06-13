@@ -1,0 +1,536 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+@media (max-width: 600px) {
+    aside {
+        display: none;
+    }
+}
+
+header{
+    width: 100%;
+    height: 6vw;
+    background-color: rgb(33, 39, 53);
+    color: white;
+}
+
+.Logo{
+    width: 20%;
+    border: 80%;
+    height: 6vw;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.nav{
+    width: 60%;
+    height: 6vw;
+    float: left;
+    margin-top: 1.5%;
+    position: absolute;
+    left: 40%;
+  
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li:hover{
+    background-color: rgb(78, 102, 102);
+}
+
+.Search{
+    width: 20%;
+    height: 6vw;
+    float: right;
+    position: relative;
+    top: 30%;
+}
+
+
+
+/*------MAIN-----*/
+
+.Sections{
+    
+    height: 100vh;
+    background-color: rgb(33, 39, 53);
+}
+
+.buttonOrdenNow{
+    background-color: rgb(33, 39, 53);
+    border: 0;
+    border-radius: 2vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 15vw;
+    height: 3vw;
+}
+
+.onesection {
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: rgb(33, 39, 53);
+    background-image: url(../asserts/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.onesection h1{
+    font-size: 500%;
+    color: white;
+    }
+
+.onesection p{
+    font-size: 200%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Sección 2*/
+
+.TwoSection h1{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.TwoSection p{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    color: white;
+    font-size: 150%;
+}
+
+.menufirst{
+    position: relative;
+    left: 10%;
+}
+.menufirst img{
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.menu1h3{
+    position: relative;
+    top: 75%;
+    left: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+.menufirst p{
+    position: relative;
+    top: 85%;
+    
+}
+
+.menusecond{
+    position: relative;
+    left: 20%;
+}
+.menusecond img{
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.menu2h3{
+    position: relative;
+    top: 75%;
+    left: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+.menusecond p{
+    position: relative;
+    top: 85%;
+    
+}
+
+.menuthird{
+    position: relative;
+    left: 30%;
+}
+.menuthird img{
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.menu3h3{
+    position: relative;
+    top: 75%;
+    left: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+.menuthird p{
+    position: relative;
+    top: 85%;
+    
+}
+
+.menu-container{
+    display: flex;
+}
+
+
+/*------Section 3------*/
+
+.ThreeSection{
+    background-color: rgb(231, 187, 104);
+}
+
+.ImageContainer{
+    width: 3%;
+    position: relative;
+    top: 15%;
+    left: 13%;
+}
+
+.ImageContainer img{
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.TextContainer{
+    text-align: right;
+    position: relative;
+    right: 20%;
+}
+
+.OnlyTitle{
+    color: white;
+    font-size: 500%;
+    position: relative;
+    left: 5%;
+    
+}
+
+.OnlyDescrip{
+    color: white;
+    font-size: 200%;
+    position: relative;
+    left: 10%;
+    text-align: right;
+    
+}
+
+/*-----Section 4------*/
+
+.Text-Cuatro{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.Text-Cuatro h1{
+    font-size: 250%;
+    position: relative;
+    top: 10%;
+}
+
+.FourSection p{
+    font-size: 175%;
+    color: white;
+}
+
+.MenuCircules {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 65%;
+    background-color: rgb(33, 39, 53);
+    height: 60vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.MenuCircules div {
+    width: 100%;
+    height: 50%;
+    margin: 5%;
+    background-color: rgb(33, 39, 53);
+}
+
+.Circule {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: white;
+    background: #8AC007;
+    border-radius: 100%;
+  }
+
+.Circule h1{
+      text-align: center;
+      margin-top: 20%;
+      color: white;
+      font-size: 320%;
+  }
+
+  /*-----Section 5------*/
+
+.FiveSection{
+    background-color: rgb(231, 187, 104);
+}
+
+.FiveSection img{
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.FiveSection h1{
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+
+.FiveSection p{
+    text-align: center;
+    position: relative;
+    left: 27%;
+}
+
+.FiveSection button{
+    position: relative;
+    right: 25%;
+}
+
+/*----- Section 6-----*/
+
+/*.SixSection{
+    background-image: url(../asserts/Sushi2.jpg);
+    opacity: ;
+}*/
+
+.SixSection img{
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 37%;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.SixSection p{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    position: relative;
+    top: 20%;
+}
+
+.SixSection h4{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    position: relative;
+    top: 30%;
+}
+
+
+/*-----Section 7-----*/
+
+.SevenSection{
+    overflow-x: hidden;
+    background-color: rgb(231, 187, 104);
+}
+.Info{
+    position: relative;
+    top: 17%;
+}
+
+.Info h1{
+    text-align: center;
+    font-size: 300%;
+    color: rgb(33, 39, 53);
+}
+
+.Info p{
+    text-align: center;
+    font-size: 150%;
+    color: rgb(33, 39, 53);
+}
+
+.Form{
+    width: 100%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.Form input{
+    overflow-x: hidden;
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(141, 113, 113);
+    border-radius: 4px;
+    overflow: hidden;
+}
+/*Intente de todas formas acoplar el form a la pantalla pero
+no logré hacerlo, disculpas del caso.*/
+
+
+/*Footer*/
+.Footer{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(15, 15, 15);
+}
+
+.flex-container {
+    position: relative;
+    top: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+  
+.flex-items:nth-child(1) {
+    position: relative;
+    left: 2.5%;
+    width: 25%;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: white;
+    font-size: large ;
+  }
+.flex-items:nth-child(1) p{
+      position: relative;
+      top: 30%;
+  }
+
+.flex-items:nth-child(1) img{
+      position: relative;
+      top: 50%;
+  }
+  
+
+.flex-items:nth-child(2) {
+    width: 25%;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: white;
+    font-size: large;
+  }
+
+.flex-items:nth-child(2) li{
+      list-style: none;
+      margin: 2%;
+  }
+  
+.flex-items:nth-child(3) {
+    display: block;
+    width: 25%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: white;
+    font-size: large;
+  }
+
+.flex-items:nth-child(3) li{
+    list-style: none;
+    margin: 2%;
+}
+  
+.flex-items:nth-child(4) {
+    width: 25%;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: white;
+    font-size: large;
+  }
+
+.flex-items:nth-child(4) li{
+    list-style: none;
+    margin: 2%;
+}
+.Send{
+    float: right;
+    width: 22%;
+    height: 5vh;
+    position: relative;
+    top: 30%;
+    right: 39%;
+}
+
